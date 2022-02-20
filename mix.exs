@@ -61,6 +61,8 @@ defmodule Fermentation.MixProject do
       {:circuits_i2c, "~> 0.1"},
       # Data logging
       {:ecto_sqlite3, "~> 0.5.0"},
+      # Other helpers
+      # {:ex_cldr_units, "~> 3.0"},
     ]
   end
 

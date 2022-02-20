@@ -25,3 +25,7 @@ export NERVES_NETWORK_PSK=psk
 mix firmware && mix upload
 ```
 
+## Currently working on
+* Setting up heater_server to manage heater, check in with sensor, record events to db
+* Creating sensor_server to check temp every so often, record readings to db
+* Orchestrating heater_server and sensor_server under station supervisor
